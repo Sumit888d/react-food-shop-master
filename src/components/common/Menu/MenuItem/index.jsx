@@ -35,7 +35,7 @@ const MenuItem = ({
 
   return (
     <div className='item'>
-      <img src={img} alt='food' />
+      <img  src={img} alt='food' />
       <div className='item-head_desc'>
         <p className='head_desc-name'>{name}</p>
         <p className='head_desc-info'>

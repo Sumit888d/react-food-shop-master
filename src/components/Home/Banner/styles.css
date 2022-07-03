@@ -1,15 +1,12 @@
 header {
   border-bottom: 3px solid black;
-  display: grid;
+  /*display: grid;*/
   grid-template-columns: 1fr 1fr;
   padding: 0.5rem 0 0 0;
   height: 100vh;
 }
-.header-img {
-  width: 100%;
-  align-items: flex-end;
-  align-self: center;
-  height: 50%;
+.ban{
+  max-width:100px;
 }
 .header-content {
   display: flex;
@@ -17,22 +14,23 @@ header {
 }
 
 .content-main {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+  /*display: flex;*/
+  /*flex-direction: column;
+  flex: 1;*/
   margin: 10px;
-  justify-content: center;
+
+  /*justify-content: center;*/
 }
+
 .content-main h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 1.5rem;
 }
-.content-main button {
+.btn {
   background: #000;
   color: #fff;
   width: 200px;
-  display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   padding: 1rem 1.5rem;
   outline: none;
@@ -51,24 +49,35 @@ header {
 
 @media (max-width: 768px) {
   .content-main h1 {
-    font-size: 1.2rem;
+    font-size: 2.0rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   .content-main p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
-  .content-main button {
-    font-size: 0.8rem;
-    width: 150px;
-    padding: 0.5rem 1rem;
+  .btn {
+    font-size: 1.2rem;
+    width: 180px;
+    padding: 1rem 1rem;
     margin-top: 1.5rem;
+    align-content: center;
+  }
+  .box img{
+    height: 45vh;
+    width:60vw;
   }
 }
 .box{
     padding: 0 0.8rem 0.8rem 0.8rem;
+    margin-top: 30px;
     background-color: rgb(129, 69, 118);
     border-radius: 30px;
     text-align: center;
-  background-color: rgb(129, 69, 118);
-  border-color: black;
+    background-color: rgb(129, 69, 118);
+    border-color: 2px solid black;
+}
+.box img {
+  height: 50vh;
+  width: 60vw;
 }
