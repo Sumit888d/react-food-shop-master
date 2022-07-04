@@ -12,7 +12,7 @@ import Cart from './pages/Cart';
 const App = () => {
   return (
     <div className='container'>
-      <Router>
+      <Router basename='//react-food-shop-master'>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/cart' component={Cart} />
